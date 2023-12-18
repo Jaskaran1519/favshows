@@ -1,6 +1,3 @@
-/* author: https://codepen.io/petebarr/pen/qBOeVoz
-Pete Barr
- */
 :root {
   --dark: #242423;
 }
@@ -9,11 +6,14 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   min-height: 100vh;
 }
 
@@ -99,7 +99,7 @@ p {
 .intro {
   position: relative;
   padding: 5vw;
-  background: #C0D7D8;
+  background: #c0d7d8;
   overflow: hidden;
 }
 
@@ -184,7 +184,7 @@ p {
   overflow: hidden;
 }
 .slide:nth-of-type(even) {
-  background: #C4CDC4;
+  background: #c4cdc4;
 }
 @media all and (max-width: 768px) {
   .slide {
@@ -249,7 +249,7 @@ p {
 }
 
 .col__content--1 {
-  background: #D8C0C0;
+  background: #d8c0c0;
 }
 @media all and (max-width: 768px) {
   .col__content--1 {
@@ -258,7 +258,7 @@ p {
 }
 
 .col__content--2 {
-  background: #CDD5E0;
+  background: #cdd5e0;
 }
 @media all and (max-width: 768px) {
   .col__content--2 {
@@ -267,7 +267,7 @@ p {
 }
 
 .col__content--3 {
-  background: #F3D3B0;
+  background: #f3d3b0;
 }
 @media all and (max-width: 768px) {
   .col__content--3 {
@@ -276,7 +276,7 @@ p {
 }
 
 .col__content--4 {
-  background: #F8E9E6;
+  background: #f8e9e6;
 }
 @media all and (max-width: 768px) {
   .col__content--4 {
@@ -285,7 +285,7 @@ p {
 }
 
 .col__content--5 {
-  background: #D1E2EC;
+  background: #d1e2ec;
 }
 @media all and (max-width: 768px) {
   .col__content--5 {
@@ -294,7 +294,7 @@ p {
 }
 
 .col__content--6 {
-  background: #D7CEC5;
+  background: #d7cec5;
 }
 @media all and (max-width: 768px) {
   .col__content--6 {
@@ -409,31 +409,31 @@ p {
 }
 
 .slide--0 .slide__scroll-line {
-  background: #C0D7D8;
+  background: #c0d7d8;
 }
 
 .slide--1 .slide__scroll-line {
-  background: #D8C0C0;
+  background: #d8c0c0;
 }
 
 .slide--2 .slide__scroll-line {
-  background: #CDD5E0;
+  background: #cdd5e0;
 }
 
 .slide--3 .slide__scroll-line {
-  background: #F3D3B0;
+  background: #f3d3b0;
 }
 
 .slide--4 .slide__scroll-line {
-  background: #F8E9E6;
+  background: #f8e9e6;
 }
 
 .slide--5 .slide__scroll-line {
-  background: #D1E2EC;
+  background: #d1e2ec;
 }
 
 .slide--6 .slide__scroll-line {
-  background: #D7CEC5;
+  background: #d7cec5;
 }
 
 /*  ========================================================================== 
